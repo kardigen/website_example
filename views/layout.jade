@@ -1,0 +1,35 @@
+!!! 5
+html
+  head
+    block head
+      link(rel='stylesheet', href='/css/bootstrap-0.1.css')
+      link(rel='stylesheet', href='/css/default-0.1.css')
+  body
+    #top-menu.navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.btn.btn-navbar(data-toggle="collapse" data-target=".nav-collapse)
+            span Menu
+          a.brand(href="./index.html")
+            #brand_logo
+              #logo AID Systems
+              #tagline Software easy to use
+          .nav-collapse.collapse
+            ul.nav
+              block nav-home
+                li
+                  a(href="/") Home
+              block nav-products
+                li
+                  a(href="/products.html") Products
+              block nav-services
+                li
+                  a(href="/services.html") Services
+              block nav-clients
+                li
+                  a(href="/clients.html") Clients
+              block nav-contact
+                li
+                  a(href="/contact.html") Contact
+    #main-content.container
+      block body

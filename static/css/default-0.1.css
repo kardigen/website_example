@@ -1,0 +1,30 @@
+/* ------ TOP MENU ------ */
+
+.navbar .brand {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.navbar .nav {
+  font-size: 1.5em;
+}
+
+#brand_logo #logo {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#brand_logo #tagline {
+  font-size: 18px;
+  padding-left: 15px;
+  padding-top: 4px;
+}
+
+.navbar-fixed-top .navbar-inner {
+  background: url('../img/header_background.gif') repeat-x;
+}
+
+/* ------ MAIN CONTENT CONTAINER ------ */
+#main-content {
+  margin-top: 105px;
+}
