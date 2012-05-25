@@ -9,11 +9,43 @@ block body
     .page-header
       h1 Services
       span See what we can do for you
-  .row
-    .offset2.span3.margin-top2
-      .well.height7 Consulting
-    .span3.margin-top2
-      .well.height7 Tests and audits
-    .span3.margin-top2
-      .well.height7 Development
 
+  .tabbable.tabs-left
+    ul.nav.nav-tabs(style='height:400px;padding-top:30px;')
+      li.active: a(href="#consulting",data-toggle="tab") Consulting
+      li:        a(href="#audits",data-toggle="tab") Audits
+      li:        a(href="#tests",data-toggle="tab") Tests
+      li:        a(href="#development",data-toggle="tab") Development
+      li:        a(href="#trainings",data-toggle="tab") Trainings
+
+    .tab-content
+      #consulting.tab-pane.active
+        h1 Consulting
+        .span3
+          h2 Usability
+          ul
+            li Make website easy to use.
+            li Increase good user experience.
+            li Make website more recognizable.
+          br
+          p If you have questions like:
+          p What can I do to improve my site?
+          p What can I do to improve my site?
+        .span3
+          h2 Mobile websites
+          p Make your website modern
+        .span3
+          h2 Modern website technologies
+
+      #audits.tab-pane
+        h1 Audits
+        p
+      #tests.tab-pane
+        h1 Tests
+        p
+      #development.tab-pane
+        h1 Development
+        p
+      #development.tab-pane
+        h1 Trainings
+        p
