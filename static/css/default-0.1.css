@@ -24,7 +24,19 @@
   height: 200px;
 }
 
+
+.underlined {
+  border-bottom: thistle dotted thin;
+  padding-right: 10px;
+  padding-bottom: 2px;
+}
+
+.indented {
+  text-indent:20px;
+}
+
 /* ------ TOP MENU ------ */
+
 
 .navbar .brand {
   padding-top: 25px;
@@ -53,4 +65,19 @@
 /* ------ MAIN CONTENT CONTAINER ------ */
 #main-content {
   margin-top: 105px;
+}
+
+/* ------- TAGS CLOUD ----- */
+
+.tags-cloud {
+  position: relative;
+}
+
+.tag {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px silver;
+  position: absolute;
+  cursor: help;
 }

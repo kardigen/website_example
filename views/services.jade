@@ -8,44 +8,136 @@ block body
   .row-fluid
     .page-header
       h1 Services
-      span See what we can do for you
+      span What we can do for you?
 
   .tabbable.tabs-left
     ul.nav.nav-tabs(style='height:400px;padding-top:30px;')
       li.active: a(href="#consulting",data-toggle="tab") Consulting
-      li:        a(href="#audits",data-toggle="tab") Audits
-      li:        a(href="#tests",data-toggle="tab") Tests
+      li:        a(href="#tests",data-toggle="tab") Testing
       li:        a(href="#development",data-toggle="tab") Development
+      li:        a(href="#monitoring",data-toggle="tab") Monitoring
       li:        a(href="#trainings",data-toggle="tab") Trainings
 
     .tab-content
-      #consulting.tab-pane.active
-        h1 Consulting
-        .span3
-          h2 Usability
-          ul
-            li Make website easy to use.
-            li Increase good user experience.
-            li Make website more recognizable.
-          br
-          p If you have questions like:
-          p What can I do to improve my site?
-          p What can I do to improve my site?
-        .span3
-          h2 Mobile websites
-          p Make your website modern
-        .span3
-          h2 Modern website technologies
+      script
+        $(function(){
+          $('.tag').popover()})
 
-      #audits.tab-pane
-        h1 Audits
+      #consulting.tab-pane.active.fade.in
+        h1
+          span.underlined Consulting
+
+        .span3.margin-top3
+          h2 Web usability
+          p We will answer your questions - how to
+          ul
+            li make website easy to use?
+            li increase good user experience?
+            li make website more recognizable?
+            li make layout clear and readable?
+          h4 ... and many other.
+
+        .span3.margin-top3
+          h2 Mobile solutions
+          p
+            | Did you know that WWW browsing using mobile devices
+            | achieved almost 10 percent over the world and it doubled last year?
+          h4 This is future that starts today!
+
+        .span4.margin-top3
+          h2 Modern web technologies
+          p(style='padding-right:60px;')
+            | Maybe you have great idea for new web solution,
+            | but you don't know how to start?
+            | What technology use?
+            | And how much it will cost?
+          h4 Ask us! We will help you!
+
+      #tests.tab-pane.fade
+        h1
+          span.underlined Testing
+
+        .span3.margin-top3
+          h2 Usability audits
+          p
+            | Our professionals can audit your website
+            | and prepare profound report including:
+          ul
+            li current website strong and weak sides,
+            li different browsers problems,
+            li different devices problems,
+            li detailed and prioritized plan of improvements.
+          h4 Fast and easy way to knowledge!
+
+
+        .span3.margin-top3
+          h2 Usability tests
+          p
+            | The best way to check website usability is
+            | to ask common people.
+          p
+            | We are able organize usability tests,
+            | analyze and prepare
+            | report for you.
+
+        .span4.margin-top3
+          h2 Performance tests
+          ul
+            li How many users can use your website?
+            li How fast is your website loading?
+            li Where is 'bottleneck' that makes your website slow?
+          h4 If you want to know answers, just tell us.
+
+      #development.tab-pane.fade
+        h1
+          span.underlined Development
+
+        .span5.margin-top3
+          h2 Web applications
+          br
+
+          h4 Comprehensive solutions
+          p.indented
+            | From customer first idea by front-end prototype
+            | and back-end development to hardware and infrastructure issues.
+            | We are ready to help you on any level of web application development.
+
+          h4 High quality software
+          p.indented
+            | We are strongly focused on <em>Web usability</em>
+            | and <em>Testing issues</em>, what are the most important measures
+            | of <em>Software Quality</em>.
+
+          h4 Flexibility
+          p.indented
+            | Agile, Scrum and XP methodologies reduce risk of failure
+            | and increase project flexibility on changes. What is more,
+            | customer have always good control of work progress and investment level.
+
+          h4 Any project size
+          p.indented From small start-up project development to with huge distributed systems.
+
+        .offset1.span5.margin-top3
+          h2 Technology tags
+          p.hint Hover to see more
+          .tags-cloud
+            .tag(rel='popover',
+              data-content='Well known standard for java web applications development.',
+              data-original-title='Java Enterprice Edition',
+              style='left:50px;top:80px;')
+              | JEE
+            .tag(rel='popover',
+              data-content='New high scalable platform.',
+              data-original-title='Node js platform',
+              style='left:30px;top:10px;')
+              | Node.js
+
+      #monitoring.tab-pane.fade
+        h1
+          span.underlined Monitoring
         p
-      #tests.tab-pane
-        h1 Tests
-        p
-      #development.tab-pane
-        h1 Development
-        p
-      #development.tab-pane
-        h1 Trainings
+
+      #trainings.tab-pane.fade
+        h1
+          span.underlined Trainings
         p
