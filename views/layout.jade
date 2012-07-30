@@ -22,17 +22,23 @@ html
               block nav-home
                 li
                   a(href="/") Start
+              block nav-services
+                li
+                    a(href="/services.html") Services
               block nav-products
                 li
                   a(href="/products.html") Products
-              block nav-services
-                li
-                  a(href="/services.html") Services
               block nav-clients
                 li
-                  a(href="/clients.html") Clients
+                  a(href="/clients.html") Customers
               block nav-contact
                 li
                   a(href="/contact.html") Contact
+
+    #footbar.navbar.navbar-fixed-bottom(style='background-color: rgba(0,0,0,0.8);')
+      .navbar-inner
+        div.container.padding-top1
+          span All rights reserved.
+
     #main-content.container-fluid
       block body

@@ -33,6 +33,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
+app.get('/index.html', routes.index);
 app.get('/products.html', routes.products);
 app.get('/services.html', routes.services);
 app.get('/clients.html', routes.clients);

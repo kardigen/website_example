@@ -3,22 +3,223 @@ extends layout
 block nav-home
   li.active
     a(href="/") Start
-block body
-  .row-fluid
-    .span4.margin-top2
-      .well.height5
-        a(href="/products.html")
-          h2 Products
-        p We provide wide branch of services including
 
+block body
+  .row.margin-top3
+    h2.offset1 Choose your tour path
+
+  .row.margin-top3
+    .span10.offset1
+      #tour.carousel.slide.silver-border.round-border
+        .carousel-inner
+          .active.item.height8
+            .carousel-caption.round-border
+              h4 Overview
+              p Take an overview of what we do
+            .tour-panel
+              .tour-line
+                .tour-item(style='width:14%;').padding-left4
+                  a(href="/")
+                    span.tour-item-label Start
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay1 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/services.html")
+                    span.tour-item-label Services
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay2 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/products.html")
+                    span.tour-item-label Products
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay3 &rsaquo;
+
+                .tour-item(style='width:19%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Customers
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay4 &rsaquo;
+
+                .tour-item(style='width:15%;')
+                  a(href="/contact.html")
+                    span.tour-item-label Contact
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+          .item.height8
+            .carousel-caption
+              h4 Development
+              p Path focused on development issues
+            .tour-panel
+              .tour-line
+                .tour-item(style='width:14%;').padding-left4
+                  a(href="/")
+                    span.tour-item-label Start
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay1 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/services.html")
+                    span.tour-item-label Development
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay2 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/products.html")
+                    span.tour-item-label Testing
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay3 &rsaquo;
+
+                .tour-item(style='width:19%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Customers
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay4 &rsaquo;
+
+                .tour-item(style='width:15%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Contact
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+          .item.height8
+            .carousel-caption
+              h4 Usability and User Experience
+              p If you interested in usability take this path
+            .tour-panel
+              .tour-line
+                .tour-item(style='width:14%;').padding-left4
+                  a(href="/")
+                    span.tour-item-label Start
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay1 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/services.html")
+                    span.tour-item-label Consulting
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay2 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/products.html")
+                    span.tour-item-label Testing
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay3 &rsaquo;
+
+                .tour-item(style='width:19%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Customers
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay4 &rsaquo;
+
+                .tour-item(style='width:15%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Contact
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+          .item.height8
+            .carousel-caption
+              h4 Consulting and training
+              p Find out more about consulting and trainings
+            .tour-panel
+              .tour-line
+                .tour-item(style='width:14%;').padding-left4
+                  a(href="/")
+                    span.tour-item-label Start
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay1 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/services.html")
+                    span.tour-item-label Consulting
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay2 &rsaquo;
+
+                .tour-item(style='width:17%;')
+                  a(href="/products.html")
+                    span.tour-item-label Trainings
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay3 &rsaquo;
+
+                .tour-item(style='width:19%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Customers
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+                span.tour-separator.glowing.animation-delay4 &rsaquo;
+
+                .tour-item(style='width:15%;')
+                  a(href="/clients.html")
+                    span.tour-item-label Contact
+                    br
+                    span.tour-bullet.centered.margin-top1
+
+        a(href="#tour",data-slide="prev").carousel-control.left &lsaquo;
+        a(href="#tour",data-slide="next").carousel-control.right &rsaquo;
+
+
+  .row.margin-top3.hide
+    .span10.offset1
+      .well.height8.tags-cloud
+        span.tag(style='left:5%;top:10%;')
+          a(href="#") Start
+          i.tag-icon.icon-asterisk
+
+        i.icon-chevron-right.glowing.animation-delay1(style='left:12%;top:11%;')
+        i.icon-chevron-right.glowing.animation-delay2(style='left:14%;top:11%;')
+        i.icon-chevron-right.glowing.animation-delay3(style='left:16%;top:11%;')
+        i.icon-chevron-right.glowing.animation-delay4(style='left:18%;top:11%;')
+
+        span.tag(style='left:25%;top:20%;')
+          a(href='/products.html') Products
+          i.tag-icon.icon-asterisk
+
+        a.tag(href="/services.html" , style='left:50%;top:80%;') Services
+        a.tag(href="/clients.html" , style='left:10%;top:20%;') Clients
+        a.tag(href="/contact.html" , style='left:10%;top:20%;') Clients
+
+  .row.hide
+    .span3.margin-top2.offset2
+      .height5 AID SYSTEMS 2
+    .span3.margin-top2
+      .height5 AID SYSTEMS 2
     .span4.margin-top2
-      .well.height5 AID SYSTEMS 2
-    .span4.margin-top2
-      .well.height5 AID SYSTEMS 2
-  .row-fluid
-    .span4.margin-top2
-      .well.height5 AID SYSTEMS 2
-    .span4.margin-top2
-      .well.height5 AID SYSTEMS 2
-    .span4.margin-top2
-      .well.height5 AID SYSTEMS 2
+      .height5 AID SYSTEMS 2
+  script
+    $('.carousel').carousel({
+      interval: 50000
+    })

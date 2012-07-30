@@ -11,46 +11,42 @@ block body
       span What we can do for you?
 
   .tabbable.tabs-left
-    ul.nav.nav-tabs(style='height:400px;padding-top:30px;')
+    .ul.nav.nav-tabs(style='height:400px;padding-top:30px;')
       li.active: a(href="#consulting",data-toggle="tab") Consulting
-      li:        a(href="#tests",data-toggle="tab") Testing
       li:        a(href="#development",data-toggle="tab") Development
+      li:        a(href="#tests",data-toggle="tab") Testing
       li:        a(href="#monitoring",data-toggle="tab") Monitoring
       li:        a(href="#trainings",data-toggle="tab") Trainings
 
     .tab-content
-      script
-        $(function(){
-          $('.tag').popover()})
-
       #consulting.tab-pane.active.fade.in
         h1
           span.underlined Consulting
 
         .span3.margin-top3
           h2 Web usability
-          p We will answer your questions - how to
+          p.padding-top1 We will answer your questions.<br \>How to:
           ul
-            li make website easy to use?
-            li increase good user experience?
-            li make website more recognizable?
-            li make layout clear and readable?
+            li make website easy to use,
+            li increase good user experience,
+            li make website more recognizable,
+            li make layout clear and readable,
           h4 ... and many other.
 
         .span3.margin-top3
           h2 Mobile solutions
-          p
+          p.padding-top1
             | Did you know that WWW browsing using mobile devices
             | achieved almost 10 percent over the world and it doubled last year?
           h4 This is future that starts today!
 
         .span4.margin-top3
           h2 Modern web technologies
-          p(style='padding-right:60px;')
+          p(style='padding-right:60px;').padding-top1
             | Maybe you have great idea for new web solution,
-            | but you don't know how to start?
-            | What technology use?
-            | And how much it will cost?
+            | but you don't know how to start?<br>
+            | What technologies you should use?<br>
+            | How much time it probably take and how much it will cost?
           h4 Ask us! We will help you!
 
       #tests.tab-pane.fade
@@ -59,7 +55,7 @@ block body
 
         .span3.margin-top3
           h2 Usability audits
-          p
+          p.padding-top1
             | Our professionals can audit your website
             | and prepare profound report including:
           ul
@@ -71,22 +67,22 @@ block body
 
 
         .span3.margin-top3
-          h2 Usability tests
-          p
+          h2 Real usability tests
+          p.padding-top1
             | The best way to check website usability is
             | to ask common people.
           p
             | We are able organize usability tests,
-            | analyze and prepare
+            | analyze it and prepare
             | report for you.
 
         .span4.margin-top3
           h2 Performance tests
-          ul
+          ul.padding-top1
             li How many users can use your website?
             li How fast is your website loading?
             li Where is 'bottleneck' that makes your website slow?
-          h4 If you want to know answers, just tell us.
+          h4 If you want to know answers, just contact us.
 
       #development.tab-pane.fade
         h1
@@ -94,50 +90,129 @@ block body
 
         .span5.margin-top3
           h2 Web applications
-          br
 
-          h4 Comprehensive solutions
-          p.indented
-            | From customer first idea by front-end prototype
+          h4.margin-top1 Comprehensive solutions
+          p.indented.padding-top1
+            | From your first idea by front-end prototype
             | and back-end development to hardware and infrastructure issues.
             | We are ready to help you on any level of web application development.
 
           h4 High quality software
-          p.indented
+          p.indented.padding-top1
             | We are strongly focused on <em>Web usability</em>
-            | and <em>Testing issues</em>, what are the most important measures
-            | of <em>Software Quality</em>.
+            | and <em>Testing</em>, what are the most important measures
+            | of <em>Web Software Quality</em>.
 
           h4 Flexibility
-          p.indented
+          p.indented.padding-top1
             | Agile, Scrum and XP methodologies reduce risk of failure
             | and increase project flexibility on changes. What is more,
             | customer have always good control of work progress and investment level.
 
           h4 Any project size
-          p.indented From small start-up project development to with huge distributed systems.
+          p.indented.padding-top1 From small start-up project development to with huge distributed systems.
 
-        .offset1.span5.margin-top3
-          h2 Technology tags
-          p.hint Hover to see more
+        .offset1.span3.margin-top3
+          h2 Technologies tags
+          p.hint.padding-top1 Hover to find out more about technologies we use.
           .tags-cloud
             .tag(rel='popover',
-              data-content='Well known standard for java web applications development.',
+              data-content='Well known and powerful standard for java web applications.',
               data-original-title='Java Enterprice Edition',
-              style='left:50px;top:80px;')
+              style='left:30px;top:15px;')
               | JEE
             .tag(rel='popover',
-              data-content='New high scalable platform.',
-              data-original-title='Node js platform',
-              style='left:30px;top:10px;')
-              | Node.js
+              data-content='Modern document base database for high scalable applications.',
+              data-original-title='Mongo DB',
+              style='left:130px;top:5px;')
+              | Mongo DB
+            .tag(rel='popover',
+              data-content='Newest HTML standards that turns web browser into platform for advanced, native like web applications.',
+              data-original-title='HTML version 5',
+              style='left:100px;top:45px;')
+              | HTML5
+            .tag(rel='popover',
+              data-content='Modern and powerful distributed version control system.',
+              data-original-title='GIT version control system',
+              style='left:190px;top:70px;')
+              | GIT
+            .tag(rel='popover',
+              data-content='Modern platform for fast and scalable web applications.',
+              data-original-title='Node JS platform',
+              style='left:50px;top:90px;')
+              | Node JS
+            .tag(rel='popover',
+              data-content='Well known, solid and reliable relational database for enterprice solutions.',
+              data-original-title='Oracle DB',
+              style='left:120px;top:130px;')
+              | Oracle DB
+            .tag(rel='popover',
+              data-content='Newest Cascading Style Sheets standard version. Enable websites to be more suitable for mobile devices.',
+              data-original-title='Oracle DB',
+              style='left:5px;top:160px;')
+              | CSS3
+            .tag(rel='popover',
+              data-content='Development toolkit for building and optimizing complex browser-based applications.',
+              data-original-title='Google Web Toolkit',
+              style='left:105px;top:170px;')
+              | GWT
+            .tag(rel='popover',
+              data-content='Google provides wide range of powerful services which you can integrate with.',
+              data-original-title='Google Services integration',
+              style='left:45px;top:220px;')
+              | Google Services
 
       #monitoring.tab-pane.fade
         h1
           span.underlined Monitoring
-        p
+
+        .span5.margin-top3
+          h2 Goggle Analytics integration
+          p.padding-top1
+            | We can help you to integrate your website
+            | with Google Analytics services to monitor:
+          ul
+            li how many people visits your website,
+            li who are your customers,
+            li how effective are your advertisements,
+            li which pages are most popular so you can create a better experience,
+            li and many more...
+          h4 Summary: monitor, make reports and analysis to improve your business.
+
+
+        .span5.margin-top3
+          h2 User behaviour monitoring
+          p.padding-top1
+            | To improve usability is good to know how
+            | visitors uses your website. This kind of monitoring helps to answer
+            | questions:
+          ul
+            li what parts of website are confusing to users,
+            li what kind of errors site visitors usually makes,
+            li in what way your website is used.
+          h4 Monitor users experience.
 
       #trainings.tab-pane.fade
         h1
           span.underlined Trainings
-        p
+
+        .span5.margin-top3
+          h2 UX techniques
+          p.padding-top1
+            | If you want to create better new web products in future,
+            | we can teach you basics of usability and design techniques,
+            | to improve your business development.
+
+        .span5.margin-top3
+          h2 Development techniques
+          p.padding-top1
+            | We have high qualified and experienced people that can
+            | share their skills. One of most demanded training
+            | we can organise is about <strong>GIT version control system<strong>.
+
+
+  script
+    $(function(){
+      $('.tag').popover()
+      $('#myTab a:last').tab('show');
+      })
