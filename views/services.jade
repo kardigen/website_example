@@ -11,12 +11,12 @@ block body
       span What we can do for you?
 
   .tabbable.tabs-left
-    .ul.nav.nav-tabs(style='height:400px;padding-top:30px;')
-      li.active: a(href="#consulting",data-toggle="tab") Consulting
-      li:        a(href="#development",data-toggle="tab") Development
-      li:        a(href="#tests",data-toggle="tab") Testing
-      li:        a(href="#monitoring",data-toggle="tab") Monitoring
-      li:        a(href="#trainings",data-toggle="tab") Trainings
+    ul.nav.nav-tabs(style='height:400px;padding-top:30px;')
+      li.active: a(href="#consulting",  id="consulting-tab", data-toggle="tab") Consulting
+      li:        a(href="#development", id="development-tab",data-toggle="tab") Development
+      li:        a(href="#tests",       id="tests-tab",      data-toggle="tab") Testing
+      li:        a(href="#monitoring",  id="monitoring-tab", data-toggle="tab") Monitoring
+      li:        a(href="#trainings",   id="monitoring-tab", data-toggle="tab") Trainings
 
     .tab-content
       #consulting.tab-pane.active.fade.in
@@ -213,6 +213,6 @@ block body
 
   script
     $(function(){
-      $('.tag').popover()
-      $('#myTab a:last').tab('show');
+      $('.tag').popover();
+      $(window.location.hash).tab('show');
       })
