@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592e5ba8-7de6-4c82-9e98-e812c89989b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/default-0.1.css" afterPath="$PROJECT_DIR$/static/css/default-0.1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,16 +68,16 @@
       <file leaf-file-name="default-0.1.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/default-0.1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="10" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
+            <state line="209" column="34" selection-start="2519" selection-end="2519" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="17" selection-start="6897" selection-end="6897" vertical-scroll-proportion="0.0">
+            <state line="147" column="42" selection-start="5153" selection-end="5153" vertical-scroll-proportion="1.4230769">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="172" selection-end="172" vertical-scroll-proportion="0.26923078">
+            <state line="7" column="24" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,13 +151,13 @@
         <option value="$PROJECT_DIR$/views/services.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/twitter-coustom.txt" />
-        <option value="$PROJECT_DIR$/static/css/default-0.1.css" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/contact.jade" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/static/css/default-0.1.css" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
       </list>
     </option>
   </component>
@@ -611,20 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/default-0.1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="10" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="17" selection-start="6897" selection-end="6897" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
@@ -653,7 +639,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="172" selection-end="172" vertical-scroll-proportion="0.26923078">
+        <state line="7" column="24" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/default-0.1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="34" selection-start="2519" selection-end="2519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="42" selection-start="5153" selection-end="5153" vertical-scroll-proportion="1.4230769">
           <folding />
         </state>
       </provider>
