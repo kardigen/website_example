@@ -64,6 +64,26 @@
   padding-top: 20px;
 }
 
+.padding-top4 {
+  padding-top: 30px;
+}
+
+.padding-top5 {
+  padding-top: 40px;
+}
+
+.padding-bottom1 {
+  padding-bottom: 5px;
+}
+
+.padding-top2 {
+  padding-bottom: 10px;
+}
+
+.padding-top3 {
+  padding-bottom: 20px;
+}
+
 .padding-left1 {
     padding-left: 5px;
 }
@@ -160,7 +180,7 @@
 
 .navbar .nav {
   font-size: 1.7em;
-  top: 1em;
+  top: 1.3em;
 }
 
 #brand_logo #logo {
@@ -223,7 +243,8 @@
 }
 
 #tour .tour-line {
-  padding: 100px 50px 0 50px;
+  padding-left:50px;
+  padding-right: 50px;
   width: 100%;
   box-sizing: border-box;
 }
